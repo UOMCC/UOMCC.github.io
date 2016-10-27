@@ -14,13 +14,6 @@ body {
 .info {
 	padding: 10px;
 }
-li { 
-	color: black;
-	display: inline;
-	padding: 50px 40px 50px 40px; 
-	background: rgba(255,255,255,.5);
-	background-size: cover;
-}
 h1 {
   font-family: 'font-family: 'Titillium Web', sans-serif;';
   font-size: 90px;
@@ -34,8 +27,16 @@ h2 {
 }
 
 ul { 
-text-align: center;
+	text-align: center;
+	padding: 30px;
+	background: rgba(255,255,255,.5);
  }
+ li { 
+	font-size: 20px;
+	color: black;
+	display: inline;
+	padding: 50px 40px 50px 40px; 
+}
  p {
  	text-align: center;
  	color: black;
