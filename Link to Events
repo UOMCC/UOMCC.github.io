@@ -1,0 +1,8 @@
+	</header>
+  <ul class= "navigationbar"> 
+  			<li> Events </li>
+ -			<li> Places to visit </li>
+ +			<li><a href="https://uomcc.github.io/Events">Events</a></li>
+  			<li><a href="https://sakib5.typeform.com/to/i0Gk2l"> Sign Up </a></li>
+  			<li> Contact</li>
+  		</ul>
