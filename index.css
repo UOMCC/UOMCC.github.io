@@ -18,8 +18,6 @@ li {
 	color: black;
 	display: inline;
 	padding: 50px 40px 50px 40px; 
-	background: rgba(255,255,255,.5);
-	background-size: cover;
 }
 h1 {
   font-family: 'font-family: 'Titillium Web', sans-serif;';
@@ -35,6 +33,8 @@ h2 {
 
 ul { 
 text-align: center;
+	background: rgba(255,255,255,.5);
+	background-size: cover;
  }
  p {
  	text-align: center;
