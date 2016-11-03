@@ -8,37 +8,63 @@ body {
 	color: rgba(0,0,0,0);
 	background: url("http://margraonline.com/wp-content/uploads/2015/08/pretty-coffee-beans.jpeg");
 	background-size: cover;
-
-
+	background-attachment: fixed;
 }
 .info {
 	padding: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-decoration: bold;
+	text-align: center;
+	background: rgba(255,255,255,.5);
 }
 h1 {
-  font-family: 'font-family: 'Titillium Web', sans-serif;';
-  font-size: 90px;
-  text-align: center;
+  	font-family: 'font-family: 'Titillium Web', sans-serif;';
+  	font-size: 90px;
+  	text-align: center;
 }
 h2 { 
 	font-family: 'Titillium Web', sans-serif;
 	font-size:30px;
-  text-align: center;
-  margin: 0px 0 -50px 0;
+  	text-align: center;
+  	margin: 0px 0 -50px 0;
 }
-
+h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size:20px;
+	text-align: center;
+	color: black;
+}
 ul { 
 	text-align: center;
 	padding: 30px;
 	background: rgba(255,255,255,.5);
- }
- li { 
+}
+li { 
 	font-size: 20px;
 	color: black;
 	display: inline;
 	padding: 50px 40px 50px 40px; 
 }
- p {
- 	text-align: center;
+p {
  	color: black;
  	padding: 10px;
+ 	font-family: 'Titillium Web', sans-serif;
+}
+article {
+ 	padding: 10px;
+	background: rgba(255,255,255,.5);
+	width: 500px;
+	margin: 0 auto;
+}
+#anchorphoto {
+	float: left;
+	margin: 10px;
  }
+ #takkphoto {
+ 	float: right;
+ 	margin: 10px;
+ }
+span.italic {
+	font-style: italic;
+}
