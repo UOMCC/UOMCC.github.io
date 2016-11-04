@@ -3,12 +3,6 @@ header {
 	text-align: center;
 	color: white;
 }
-body {
-	font-family: helvetica;
-	color: rgba(0,0,0,0);
-	background: url("http://margraonline.com/wp-content/uploads/2015/08/pretty-coffee-beans.jpeg");
-	background-size: cover;
-}
 #cc{
     color: white;
     text-decoration: none;
@@ -22,6 +16,13 @@ body {
 }
 #homebutton {
 	width: 30px;
+}
+body {
+	font-family: helvetica;
+	color: rgba(0,0,0,0);
+	background: url("http://margraonline.com/wp-content/uploads/2015/08/pretty-coffee-beans.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
 }
 h1 {
   	font-family:  sans-serif;
@@ -76,6 +77,16 @@ article {
     font-size: 16px;
     border-radius: 8px;
 }
+.social-buttons button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
 .btn-facebook { 
 	background-color: #4868ac; 
 }
@@ -93,4 +104,3 @@ article {
 }
 .btn-instagram:hover {
 	background-color: #bb0000;
-}
