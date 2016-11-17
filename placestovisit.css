@@ -24,6 +24,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 .info {
 	padding: 10px;
 	font-family: 'Titillium Web', sans-serif;
@@ -34,16 +35,18 @@ body {
 	width: 500px;
 	margin: 0 auto;
 }
-h1 {
-  	font-family: 'font-family: 'Titillium Web', sans-serif;';
+ h1 {
+  	font-family: 'Titillium Web', sans-serif;
   	font-size: 90px;
   	text-align: center;
+  	font-weight: 900;
+  	margin: 20px 0 0 0;
 }
-h2 { 
+ h2 { 
 	font-family: 'Titillium Web', sans-serif;
 	font-size:30px;
   	text-align: center;
-  	margin: 0px 0 -50px 0;
+  	margin: 0px 0 -70px 0;
 }
 h3 {
 	font-family: 'Titillium Web', sans-serif;
@@ -52,17 +55,14 @@ h3 {
 	color: black;
 	font-weight:900;
 }
-ul { 
+
+#nav {
 	text-align: center;
-	padding: 30px;
 	background: rgba(255,255,255,.7);
-}
-li { 
+	padding: 30px;
 	font-size: 20px;
 	font-weight: bold;
 	color: black;
-	display: inline;
-	padding: 50px 40px 50px 40px; 
 }
 p {
  	color: black;
@@ -103,13 +103,12 @@ article {
 span.italic {
 	font-style: italic;
 }
-.social-buttons button {
+#socialmediabar button {
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 8px;
 }
