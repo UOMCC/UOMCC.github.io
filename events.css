@@ -11,11 +11,14 @@ header {
  	color: black;
  	text-decoration: none;
 }
-.menu:hover, #menu:active {
+.menu:hover {
 	color: purple;
 }
 #homebutton {
 	width: 30px;
+}
+.navbarlink:hover {
+	background-color: rgba(255,255,255,.6);
 }
 body {
 	font-family: helvetica;
@@ -24,18 +27,9 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
-.info {
-	padding: 10px;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
-	text-decoration: bold;
-	text-align: center;
-	background: rgba(255,255,255,.7);
-	width: 500px;
-	margin: 0 auto;
-}
 h1 {
-  	font-family: 'font-family: 'Titillium Web', sans-serif;';
+  	font-family:  sans-serif;
+  	font-weight: bold;
   	font-size: 90px;
   	text-align: center;
 }
@@ -47,61 +41,44 @@ h2 {
 }
 h3 {
 	font-family: 'Titillium Web', sans-serif;
-	font-size:20px;
 	text-align: center;
 	color: black;
-	font-weight:900;
 }
 ul { 
 	text-align: center;
 	padding: 30px;
-	background: rgba(255,255,255,.7);
-}
+	background: rgba(255,255,255,.5);
+ }
 li { 
 	font-size: 20px;
 	font-weight: bold;
 	color: black;
 	display: inline;
-	padding: 50px 40px 50px 40px; 
+	padding: 40px 40px 30px 40px; 
 }
 p {
+ 	text-align: center;
  	color: black;
  	padding: 10px;
  	font-family: 'Titillium Web', sans-serif;
- 	font-weight:bold;
+ 	font-weight: bold;
+ 	font-size:15px;
 }
 article {
  	padding: 10px;
-	background: rgba(255,255,255,.7);
-	width: 500px;
+	background: rgba(255,255,255,.5);
+	width: 600px;
 	margin: 0 auto;
 }
-#arrow {
-	width: 20px;
-}
-#anchorphoto {
-	float: left;
-	margin: 10px;
-}
-#takkphoto {
- 	float: right;
- 	margin: 10px;
-}
-#grindsmithphoto {
-	float: left;
-	margin:10px;	
-	max-width: 60%;
-	height: auto;
-}
-#potkettleblackphoto {
-	float: right;
-	margin:10px;
-	max-width: 60%;
-	height: auto;
-
-}
-span.italic {
-	font-style: italic;
+.social-buttons button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
 }
 .social-buttons button {
     border: none;
