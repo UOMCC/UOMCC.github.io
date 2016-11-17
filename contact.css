@@ -8,6 +8,8 @@ body {
 	color: rgba(0,0,0,0);
 	background: url("http://margraonline.com/wp-content/uploads/2015/08/pretty-coffee-beans.jpeg");
 	background-size: cover;
+	background-attachment: fixed;
+}
  #cc{
       color: white;
       text-decoration: none;
