@@ -85,6 +85,9 @@ textarea {
 	height: 100px;
 }
 
+#socialmediabar {
+	text-align: center;
+}
 
 #socialmediabar button {
     border: none;
@@ -95,27 +98,20 @@ textarea {
     border-radius: 8px;
 }
 .btn-facebook { 
-	float: right;
 	background-color: #4868ac; 
 }
 .btn-facebook:hover {
-	float: right;
 	background-color: #3b5998;
 }
 .btn-twitter {
-	margin:auto;
-  	display:block;
 	background-color: #00acee;
 }
 .btn-twitter:hover {
-	margin:auto;
-  	display:block;
 	background-color: #007bb6;
 }
 .btn-instagram {
-	float: left;
 	background-color: #f44336;
 }
 .btn-instagram:hover {
-	float: left;
 	background-color: #bb0000;
+}
