@@ -70,6 +70,9 @@ p {
  	font-family: 'Titillium Web', sans-serif;
  	font-weight:bold;
 }
+a:hover {
+	text-decoration: none;
+}
 article {
  	padding: 10px;
 	background: rgba(255,255,255,.7);
