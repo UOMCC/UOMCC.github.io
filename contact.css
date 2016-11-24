@@ -4,8 +4,6 @@ header {
 	color: white;
 
  }
-
-
 #cc{
     color: white;
     text-decoration: none;
@@ -63,6 +61,10 @@ p {
  	font-family: 'Titillium Web', sans-serif;
  	font-weight: bold;
  	font-size:15px;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
 }
 article {
  	padding: 10px;
